@@ -1,8 +1,6 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
-
-# C extensions
 *.so
 
 # Distribution / packaging
@@ -34,17 +32,28 @@ coverage.xml
 # Translations
 *.mo
 
-# Mr Developer
+# IDE and editor configurations
 .mr.developer.cfg
 .project
 .pydevproject
-
-# Rope
 .ropeproject
 
-# Django stuff:
+# Logs and temporary file
 *.log
 *.pot
 
-# Sphinx documentation
+# Documentation build files
 docs/_build/
+
+# Specific tailor to the projects
+data/
+!.gitkeep # Allow versioning empty directories
+
+.ipynb_checkpoints/ # Jupyter notebook ipynb_checkpoints
+
+.venv/ # Ignore virtual environment
+.env/
+
+# Ignore operating system files
+.DS_Store
+Thumbs.db
