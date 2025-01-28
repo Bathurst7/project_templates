@@ -38,18 +38,38 @@ coverage.xml
 .pydevproject
 .ropeproject
 
-# Logs and temporary file
+# Logs and temporary files
 *.log
 *.pot
 
 # Documentation build files
 docs/_build/
 
-.ipynb_checkpoints/ # Jupyter notebook ipynb_checkpoints
+# Jupyter notebook ipynb_checkpoints
+.ipynb_checkpoints/
 
-.venv/ # Ignore virtual environment
+# Ignore virtual environment directories
+.venv/
 .env/
 
 # Ignore operating system files
 .DS_Store
 Thumbs.db
+
+# Ignore the top-level data/ directory
+/data/
+
+# Explicitly track src
+!src/
+!src/data/
+!src/models/
+!src/utils/
+!src/visualisations/
+
+# Explicitly track notebooks
+!notebooks/
+!notebooks/data_analysis.ipynb
+!notebooks/model_training.ipynb
+
+# Explicitly track test
+!tests
