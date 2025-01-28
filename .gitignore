@@ -56,9 +56,6 @@ docs/_build/
 .DS_Store
 Thumbs.db
 
-# Ignore the top-level data/ directory
-/data/
-
 # Explicitly track src
 !src/
 !src/data/
