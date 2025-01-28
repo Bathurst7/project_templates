@@ -48,6 +48,8 @@ docs/_build/
 # Specific tailor to the projects
 data/
 !.gitkeep # Allow versioning empty directories
+# Do not ignore the src/data/ directory
+!src/data/
 
 .ipynb_checkpoints/ # Jupyter notebook ipynb_checkpoints
 
